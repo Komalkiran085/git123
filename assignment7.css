@@ -4,7 +4,7 @@
 }
 
 .background{
-	min-height: 100vh;
+	min-height: 110vh;
 	width: 100%;
 	float: left;
 	background-image: linear-gradient(rgba(3, 2, 7, 0.9),rgba(3, 2, 7, 0.9)), url('background3.jpg');
@@ -26,15 +26,18 @@
 	list-style: none;
 }
 .menu-bar ul li{
-	padding: 20px;
-	font-size: 15px;
+	padding: 30px 12px;
+	font-size: 12px;
 }
 .menu-bar ul li a{
 	color: #c1bb9c;
 	text-decoration: none;
 }
+.menu-bar a{
+	padding: 10px 0;
+}
 .elements{
-	padding: 5px;
+	
 }
 .elements:hover{
 	border-top: 2px solid #cb9b42;
@@ -43,36 +46,45 @@
 	transition: width .3s;
 }
 .fa.fa-chevron-down{
-	padding: 0 5px;
+	padding: 0 10px;
 }
 .contact-box{
-	width: 210px;
-	height: 70px;
-	font-size: 20px;
+	width: 160px;
+	height: 60px;
+	font-size: 10px;
 	float: left;
 	background-color: #cb9b42;
 	border: none;
 	color: #fff;
-	padding-bottom: 80px;
+	
+}
+.contact-box h4{
+	font-weight: bold;
 }
 a.elements{
-	float: bottom;
+	top: 30px;
 }
 i.fas.fa-chair{
-	width: 80px;
-	height: 80px;
+	width: 70px;
+	height: 60px;
 	background: #fff;
-	padding: 15px;
+	padding: 10px 15px;
 	color: #cb9b42;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 }
+.divider{
+	background-color: grey;
+	height: 0.2px;
+}
 .text-box{
-	margin: 50px;
+	margin: 0;
+	float: left;
 }
 .text-box h3{
 	color: #cb9b42;
 	font-weight: bold;
+	font-size: 15px;
 }
 .text-box h1 {
 	color: #fff;
@@ -91,8 +103,8 @@ i.fas.fa-chair{
 .view-btn{
 	color: #cb9b42;
 	background-color: transparent;
-	width: 200px;
-	height: 40px;
+	width: 150px;
+	height: 50px;
 	border: 1px solid #cb9b42;
 }
 .bottom{
